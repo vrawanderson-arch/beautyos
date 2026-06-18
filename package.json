@@ -1,1 +1,11 @@
-{"name":"beautyos-monorepo","private":true}
+{
+  "name": "beautyos",
+  "private": true,
+  "workspaces": [
+    "apps/api"
+  ],
+  "scripts": {
+    "dev": "npm run start:dev -w api",
+    "build": "npm run build -w api"
+  }
+}
