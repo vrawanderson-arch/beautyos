@@ -1,2 +1,1 @@
-# beautyos
-beautyos 
+# BeautyOS Monorepo
